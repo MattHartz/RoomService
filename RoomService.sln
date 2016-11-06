@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6DE6E473-CC87-47F5-9622-66176C3D9CB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76650903-78F6-4D54-80AA-98E787A335DA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RoomService", "src\RoomService\RoomService.xproj", "{88CB8401-0135-4DEC-872F-629868E5BCE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88CB8401-0135-4DEC-872F-629868E5BCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CB8401-0135-4DEC-872F-629868E5BCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CB8401-0135-4DEC-872F-629868E5BCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CB8401-0135-4DEC-872F-629868E5BCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88CB8401-0135-4DEC-872F-629868E5BCE4} = {6DE6E473-CC87-47F5-9622-66176C3D9CB1}
+	EndGlobalSection
+EndGlobal
